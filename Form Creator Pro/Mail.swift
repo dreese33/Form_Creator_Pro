@@ -1,17 +1,18 @@
 //
-//  AddForm.swift
+//  Mail.swift
 //  Form Creator Pro
 //
-//  Created by Eric Reese on 5/11/19.
+//  Created by Eric Reese on 5/12/19.
 //  Copyright © 2019 ReeseGames. All rights reserved.
 //
 
 import UIKit
 
-class AddForm: UIViewController {
+class Mail: UIViewController {
     
     //Outlet and Action definitions
-    @IBOutlet weak var addFormPageView: UIScrollView!
+    @IBOutlet weak var mailTableView: UITableView!
+    @IBOutlet weak var mailSegmentedControl: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()

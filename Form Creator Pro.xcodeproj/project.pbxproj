@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8B59CED022876EA20028E39E /* AddForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59CECF22876EA20028E39E /* AddForm.swift */; };
 		8B9B219222766580003EA535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B219122766580003EA535 /* AppDelegate.swift */; };
-		8B9B219422766580003EA535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B219322766580003EA535 /* ViewController.swift */; };
 		8B9B219722766580003EA535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B219522766580003EA535 /* Main.storyboard */; };
 		8B9B219A22766580003EA535 /* Form_Creator_Pro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B219822766580003EA535 /* Form_Creator_Pro.xcdatamodeld */; };
 		8B9B219C22766581003EA535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B219B22766581003EA535 /* Assets.xcassets */; };
@@ -17,6 +16,9 @@
 		8B9B21AA22766581003EA535 /* Form_Creator_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B21A922766581003EA535 /* Form_Creator_ProTests.swift */; };
 		8B9B21B522766581003EA535 /* Form_Creator_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B21B422766581003EA535 /* Form_Creator_ProUITests.swift */; };
 		8B9B21C322766605003EA535 /* Component_Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9B21C222766605003EA535 /* Component_Creation.swift */; };
+		8BBF12E42288B244008570F2 /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF12E32288B244008570F2 /* Forms.swift */; };
+		8BBF12E62288B2C2008570F2 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF12E52288B2C2008570F2 /* Mail.swift */; };
+		8BBF12E82288B2F5008570F2 /* Logistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF12E72288B2F5008570F2 /* Logistics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		8B59CECF22876EA20028E39E /* AddForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddForm.swift; sourceTree = "<group>"; };
 		8B9B218E22766580003EA535 /* Form Creator Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Form Creator Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9B219122766580003EA535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B9B219322766580003EA535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B9B219622766580003EA535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B9B219922766580003EA535 /* Form_Creator_Pro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Form_Creator_Pro.xcdatamodel; sourceTree = "<group>"; };
 		8B9B219B22766581003EA535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,9 @@
 		8B9B21B422766581003EA535 /* Form_Creator_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_Creator_ProUITests.swift; sourceTree = "<group>"; };
 		8B9B21B622766581003EA535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B9B21C222766605003EA535 /* Component_Creation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component_Creation.swift; sourceTree = "<group>"; };
+		8BBF12E32288B244008570F2 /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
+		8BBF12E52288B2C2008570F2 /* Mail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		8BBF12E72288B2F5008570F2 /* Logistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logistics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				8B9B219122766580003EA535 /* AppDelegate.swift */,
-				8B9B219322766580003EA535 /* ViewController.swift */,
 				8B9B21C222766605003EA535 /* Component_Creation.swift */,
+				8BBF12E32288B244008570F2 /* Forms.swift */,
 				8B59CECF22876EA20028E39E /* AddForm.swift */,
+				8BBF12E52288B2C2008570F2 /* Mail.swift */,
+				8BBF12E72288B2F5008570F2 /* Logistics.swift */,
 				8B9B219522766580003EA535 /* Main.storyboard */,
 				8B9B219B22766581003EA535 /* Assets.xcassets */,
 				8B9B219D22766581003EA535 /* LaunchScreen.storyboard */,
@@ -265,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BBF12E62288B2C2008570F2 /* Mail.swift in Sources */,
 				8B9B219A22766580003EA535 /* Form_Creator_Pro.xcdatamodeld in Sources */,
-				8B9B219422766580003EA535 /* ViewController.swift in Sources */,
+				8BBF12E82288B2F5008570F2 /* Logistics.swift in Sources */,
+				8BBF12E42288B244008570F2 /* Forms.swift in Sources */,
 				8B59CED022876EA20028E39E /* AddForm.swift in Sources */,
 				8B9B21C322766605003EA535 /* Component_Creation.swift in Sources */,
 				8B9B219222766580003EA535 /* AppDelegate.swift in Sources */,
