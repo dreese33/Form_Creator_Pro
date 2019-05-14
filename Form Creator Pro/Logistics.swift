@@ -8,10 +8,7 @@
 
 import UIKit
 
-class Logistics: UIViewController {
-    
-    //Outlet and Action definitions
-    @IBOutlet weak var logisticsTableView: UITableView!
+class Logistics: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

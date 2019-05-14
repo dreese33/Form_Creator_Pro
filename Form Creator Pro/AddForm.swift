@@ -11,7 +11,9 @@ import UIKit
 class AddForm: UIViewController {
     
     //Outlet and Action definitions
-    @IBOutlet weak var addFormPageView: UIScrollView!
+    @IBAction func done(_ sender: Any) {
+        self.dismiss(animated: false, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

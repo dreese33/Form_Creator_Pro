@@ -1,5 +1,5 @@
 //
-//  Mail.swift
+//  SplitViewControllerMaster.swift
 //  Form Creator Pro
 //
 //  Created by Eric Reese on 5/12/19.
@@ -8,13 +8,8 @@
 
 import UIKit
 
-class Mail: UITableViewController {
-    
+class SplitViewControllerMaster: UISplitViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
     }
 }
